@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwaku And Opraha</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+			body {
+					background: url(background.png) no-repeat center center fixed;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+				}
+			@font-face {font-family: Edwardian Script ITC; src:url('ITCEDSCR.TTF');}
+			@font-face {font-family: Minion Pro Regular; src:url('Minion Pro Regular.ttf');}
+
+			body{color: #34495E;}
+		</style>
+</head>
+
+<body>
+	<div class="row" style="background-color:#ffffff; opacity:0.7; font-family: Minion Pro Regular; text-align:center;">
+		<div class="col-sm-2">
+			<p style="padding-top:10%">Saturday, June 11 2015</p>
+		</div>
+		<div class="col-sm-8">
+			<h3>We hope you can join us</h3>
+		</div>
+		<div class="col-sm-2">
+			<p style="padding-top:10%">Negril, Jamaica</p>
+		</div>
+	</div>
+
+<div class="row" style="background-color:#ffffff; width:50%; margin-left:25%; right:25%; margin-top:5%; padding-top:3%; padding-bottom:3%; opacity:0.8; text-align:center; border-radius:10px; border: 1px solid #ffffff">
+		<!--<div class="row" style="">-->
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8" style="width:90%; margin-left:5%; margin-right:5%">
+				<!--Insert form-->
+				<p>Please RSVP "Yes" only if you are absolutely sure you can come.</p>
+				   <hr style="width:50%">
+				<form role="form" action="contact.php" method="post" id="contactsheet" style="padding-left:10%; padding-right:10%">
+					<p style="font-size:1.5em">Will you be gracing us with your presence?</p>
+					<div class="radio" style="font-size:1.5em;">
+  						<label><input type="radio" name="optradio">Yes - I will be there       </label>
+					</div>
+					<div class="radio" style="font-size:1.5em">
+  						<label><input type="radio" name="optradio">No - Sadly, I can't make it</label>
+					</div>
+					<hr style="width:60%">
+					<p>If you RSVP'd "Yes", kindly fill out the form below</p>
+					<div class="form-group">
+						<input type="customername" class="form-control" name="firstnamelastname" placeholder="Your Full Name">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" name="emailaddress" placeholder="Your Email">
+					</div>
+					<div class="form-group">
+						<input type="phnumber" class="form-control" name="phonenumber" placeholder="Phone Number">
+					</div>
+					<div class="form-group">
+						<input type="address" class="form-control" name="streetaddress" placeholder="Your Street Address">
+					</div>
+					<p>The wedding venue has offered a discount for guests who stay at their hotel. Would you like to be included in the guest count for the hotel?</p>
+					<div class="radio">
+  						<label><input type="radio" name="optradiob">Yes</label>
+					</div>
+					<div class="radio">
+  						<label><input type="radio" name="optradiob">No</label>
+					</div>
+					<i><p>We will be in touch shortly with more details</p></i>
+					<button type="submit" class="btn" style="width:100%; background-color:#34495E; color:#ffffff">SUBMIT</button>
+				</form>
+			</div>
+			<div class="col-sm-2"></div>
+		<!--</div>-->
+	</div>
+	<div style="width:100%; color:#ffffff; font-family: Minion Pro Regular; text-align:center; padding-top:1%; padding-bottom:1%">
+		<a href="http://www.kwakuakoi.com/" style="color:#ffffff">Designed by SKA</a>
+	</div>
+</body>
+</html>
